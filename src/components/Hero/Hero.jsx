@@ -27,10 +27,11 @@ export const Hero = () => {
                             <div className='grid grid-cols-1 sm:grid-cols-2'>
                                 {/* Info Section */}
                                 <div className='flex flex-col gap-5 justify-center pt-12 sm:pt-0 px-5 text-center sm:text-left order-2 sm:order-1 z-10'>
-                                    <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold'>{banner.title}</h1>
-                                    <p className='text-sm'>{banner.description}</p>
-                                    <div >
-                                        <button className='bg-gradient-to-r from-primary to-secondary rounded-full py-2 px-3 text-white hover:bg-gradient-to-l font-bold'>
+                                    <h1 data-aos="zoom-in" data-aos-delay="100" className='text-4xl sm:text-5xl lg:text-6xl font-bold'>{banner.title}</h1>
+                                    <p data-aos="zoom-in" data-aos-delay="300" className='text-sm'>{banner.description}</p>
+                                    <div  >
+                                        <button className='bg-gradient-to-r from-primary to-secondary rounded-md py-1 px-3 text-white hover:bg-gradient-to-l hover:scale-105 font-bold'
+                                        data-aos="zoom-in" data-aos-delay="600">
                                             Order Now
                                         </button>
                                     </div>
@@ -38,7 +39,7 @@ export const Hero = () => {
                                 {/* Image Section */}
                                 <div className='order-1 sm:order-2 '>
                                     <div className='relative z-10'>
-                                    <img src={banner.image} alt={banner.title} className='w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] mx-auto object-contain sm:scale-125'/>
+                                    <img data-aos="fade-up" data-aos-delay="100" src={banner.image} alt={banner.title} className='w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] mx-auto object-contain sm:scale-125'/>
                                     </div>
                                 </div>
                             </div>

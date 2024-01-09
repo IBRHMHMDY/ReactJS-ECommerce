@@ -10,7 +10,7 @@ export const ProductData = [
         img: women1,
         color: "White",
         rated: "5",
-        aosDelay: "0",
+        aosDelay: "100",
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ export const ProductData = [
         img: women2,
         color: "Yellow",
         rated: "3.5",
-        aosDelay: "600",
+        aosDelay: "400",
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export const ProductData = [
         img: women3,
         color: "Blue",
         rated: "4.5",
-        aosDelay: "800",
+        aosDelay: "600",
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ export const ProductData = [
         img: women4,
         color: "Red",
         rated: "5",
-        aosDelay: "1000",
+        aosDelay: "800",
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const ProductData = [
         img: women2,
         color: "Orange",
         rated: "3.5",
-        aosDelay: "600",
+        aosDelay: "1000",
     },
 ]
 
