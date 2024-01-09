@@ -23,7 +23,7 @@ export const Hero = () => {
             <Slider {...settings} >
                 {
                     banners.map((banner)=> (
-                        <div>
+                        <div key={banner.id} >
                             <div className='grid grid-cols-1 sm:grid-cols-2'>
                                 {/* Info Section */}
                                 <div className='flex flex-col gap-5 justify-center pt-12 sm:pt-0 px-5 text-center sm:text-left order-2 sm:order-1 z-10'>
