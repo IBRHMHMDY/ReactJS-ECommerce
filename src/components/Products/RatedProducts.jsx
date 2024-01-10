@@ -15,7 +15,7 @@ const RatedProducts = () => {
             Rated.map((product)=>(
               <div key={product.id} 
                 className='relative min-w-[300px] md:max-w-[350px] bg-white dark:bg-gray-800 group shadow-xl
-                    rounded-2xl hover:bg-black/80 hover:text-white dark:hover:bg-primary/40 cursor-pointer duration-300'>
+                    rounded-2xl hover:bg-black/80  dark:hover:bg-primary/40 cursor-pointer duration-300'>
                 <div className='h-[60px]'>
                   <img src={product.img} alt={product.title}
                   className='max-w-[140px] md:max-w-[150px] block mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md'/>
@@ -28,9 +28,9 @@ const RatedProducts = () => {
                     <FaStar className='text-yellow-500'/>
                     <FaStar className='text-yellow-500'/>
                   </span>
-                  <h1 className='text-xl font-bold'>{product.title}</h1>
+                  <h1 className='text-xl font-bold group-hover:text-white'>{product.title}</h1>
                   <p className='text-gray-500 line-clamp-2 group-hover:text-white duration-300 text-sm mb-5'>{product.description}</p>
-                  <button className='px-3 py-1 rounded-md bg-primary text-white hover:text-primary hover:bg-white transition-all duration-300 mx-auto w-full'>Order Now</button>
+                  <button className='bg-primary hover:text-primary hover:bg-white rounded-md py-1 px-3 text-white  hover:bg-gradient-to-l hover:scale-105 mx-auto w-full'>Order Now</button>
                 </div>
               </div>
             ))
