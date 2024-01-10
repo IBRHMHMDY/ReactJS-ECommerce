@@ -9,7 +9,7 @@ export const Hero = () => {
         speed: 800,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 8000,
         cssEase: "ease-in-out",
         pauseOnHover: false,
         pauseOnFocus: true,
@@ -27,7 +27,7 @@ export const Hero = () => {
                 {
                     heroData.map((data)=> (
                         <div key={data.id} >
-                            <div className='grid grid-cols-1 sm:grid-cols-2'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 '>
                                 {/* Info Section */}
                                 <div className='flex flex-col gap-5 justify-center pt-8 sm:pt-0 px-5 text-center sm:text-left order-2 sm:order-1 z-10'>
                                     <h1 data-aos="zoom-in" data-aos-delay="100" className='text-4xl sm:text-5xl lg:text-6xl font-bold'>{data.title}</h1>
