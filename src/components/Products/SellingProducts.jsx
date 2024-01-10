@@ -1,17 +1,14 @@
 import {FaStar} from 'react-icons/fa6'
-import ProductsData from './ProductsData.js'
+import {Selling} from './DataProducts.js'
+import HeaderSection from '../HeaderSection/HeaderSection.jsx'
 const Products = () => {
   return (
-    <div className='p-6'>
-        <div className='flex flex-col justify-center text-center p-3'>
-            <h6 className='text-sm text-primary'>Top Selling Products for you</h6>
-            <h1 className='text-4xl'>Top Selling Products</h1>
-            <p className=' text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit Tempore accusantium</p>
-        </div>
-        <div className='p-3 my-5'>
+    <div className='dark:bg-gray-900 dark:text-white py-10'>
+        <HeaderSection subtitle={"Top Selling Products for you"} title={"Top Selling Products"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit Tempore accusantium"}/>
+        <div className='px-10 py-15'>
             <div className='container flex justify-between items-center flex-wrap gap-6'>
                 {
-                    ProductsData.map((product)=>(
+                    Selling.map((product)=>(
                         <div key={product.id}
                             className='space-y-2'
                             data-aos="fade-up"
@@ -28,7 +25,7 @@ const Products = () => {
                 }
             </div>
         </div>
-        <div className='w-fit mx-auto text-center p-3'>
+        <div data-aos="fade-up" data-aos-delay="1200" className='w-full mx-auto text-center p-5'>
             <button className='px-3 py-1 rounded-md text-white bg-gradient-to-r from-primary to-secondary hover:bg-gradient-to-l hover:scale-105'>View All Products</button>
         </div>
     </div>

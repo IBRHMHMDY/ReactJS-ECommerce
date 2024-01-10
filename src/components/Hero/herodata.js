@@ -2,7 +2,7 @@ import saleImg from '../../assets/hero/sale.png'
 import shoppingImg from '../../assets/hero/shopping.png'
 import womenImg from '../../assets/hero/women.png'
 
-export const banners = [
+export const heroData = [
     {
         id: 1,
         image: saleImg,
@@ -23,5 +23,5 @@ export const banners = [
     },
 ]
 
-export default banners;
+export default heroData;
 

@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import Header from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
-import Products from "./components/Products/Products";
+import SellingProducts from "./components/Products/SellingProducts";
+import RatedProducts from "./components/Products/RatedProducts";
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -15,11 +16,13 @@ const App = () => {
     })
     AOS.refresh();
   },[AOS])
+  
   return (
     <div >
       <Header />
       <Hero />
-      <Products />
+      <SellingProducts />
+      <RatedProducts />
     </div>
   )
 }
