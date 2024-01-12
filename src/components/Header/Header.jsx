@@ -25,7 +25,7 @@ const Header = () => {
                           group-hover:w-[300px] transition-all duration-300 ease-in-out
                           border border-gray-300
                           rounded-full px-3 py-1
-                          focus:border-1 focus:outline-none focus:border-primary'/>
+                          focus:border-1 focus:outline-none focus:border-primary text-black'/>
               <MdOutlineSearch className='absolute top-1/2 right-3 -translate-y-1/2
                                         text-gray-500 group-hover:text-primary
                                         cursor-pointer'/>
