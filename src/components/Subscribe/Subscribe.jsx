@@ -10,7 +10,7 @@ const Subscribe = () => {
         height: '100%',
     }
   return (
-    <div style={ImgBackground} className='text-white py-10'>
+    <div style={ImgBackground} className='text-white p-10 md:px-60'>
         <div className='container backdrop-blur-sm'>
             <div className='flex flex-col justify-center items-center gap-2 '>
                 <h1 className='text-3xl'>Get Notified About to new Products</h1>
