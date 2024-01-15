@@ -8,6 +8,7 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Testimonials from "./components/Testimonials/Testimonials";
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   useEffect(()=>{
@@ -29,6 +30,7 @@ const App = () => {
       <Banner />
       <Subscribe />
       <Testimonials />
+      <Footer />
     </div>
   )
 }
