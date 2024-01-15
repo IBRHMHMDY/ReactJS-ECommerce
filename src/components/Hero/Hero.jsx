@@ -19,7 +19,7 @@ export const Hero = () => {
         {/* Background Pattern */}
         <div className='bg-primary/40 w-[400px] h-[400px] absolute 
         top-20 right-15 
-        md:right-52 lg:right-56 
+        md:right-52 lg:hidden
         rounded-full -z-9'></div>
         {/* Hero Section */}
         <div className='container pb-8 sm:pb-0'>
